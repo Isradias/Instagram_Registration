@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    column-gap: 60px;
+    flex-wrap: wrap;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffffb0;
+    text-align: center;
+    align-items: top;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #ffffff65;
+    width: 300px;
+    height: 600px;
+    padding: 30px;
+}
+
+.promocional {
+    width: fit-content;
+    height: 600px;
+}
+
+@font-face {
+    font-family: "instagram";
+    src: url("Elementos/Billabong.otf") format("opentype");
+}
+
+.h1 {
+    font-size: 40px;
+    font-family: "instagram";
+    color: white;
+
+}
+
+.input-field input {
+    color: white;
+    box-sizing: border-box;
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.carregar {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.saiba-mais {
+    color: #a1d7fc;
+    cursor: pointer;
+}
+
+.concordar {
+    padding: 0px 30px;
+    font-size: 12px;
+}
+
+.termos {
+    color: #a1d7fc;
+    cursor: pointer;
+}
+
+.entrar_btn {
+
+    background-color: #2074f4;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 100%;
+    padding: 7px 45px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.entrar_btn:hover {
+    background-color: #195abb;
+}
+
+.fb-logo {
+    width: 16px;
+    margin-bottom: -2px;
+}
+
+.cadastrar_btn {
+    background-color: #086cac;
+    border: none;
+    border-radius: 5px;
+    color: #cacaca;
+    width: 100%;
+    padding: 7px 32px;
+    font-size: 16px;
+    font-style: unset;
+    cursor: pointer;
+}
+
+.cadastrar_btn:hover {
+    background-color: #064e7a;
+}
+
